@@ -1,0 +1,111 @@
+/*-------------------------------------------------------
+COLOR DEFINITION
+--------------------------------------------------------*/
+
+/** Default */
+.theme-color{
+    color: #00adf1!important;
+}
+
+.theme-color-hover:hover{
+    color: #00adf1!important;
+}
+
+.theme-bg{
+    background: none repeat scroll 0 0 #00adf1!important;
+}
+.theme-bg-hover:hover{
+    background: none repeat scroll 0 0 #00adf1 !important;
+}
+.theme-border-color{
+    border-color: #00adf1!important;
+}
+
+/** panel settings */
+.panel-tools .button-command.active,.reset-button button{
+    border-color: #00adf1!important;
+
+}
+
+
+#mainnav ul.sub-menu > li > a:hover,
+#mainnav  ul  li.active > a,
+.content-slider .money span,
+.header-information li a:hover, .header-information li a:focus,
+.header-sns-button a:hover, .header-sns-button a:focus,
+.custom-reply .content-reply .name-custom i,
+.package-services-wrapper .package-item .pricebox-content .number-domain li .fa-check,
+.package-services-wrapper .package-item:hover .pricebox-header .single-up a,
+.info-offer-list .info-offer-item h3,
+.feature-tab-item  .list-suggest li i,
+.popular-feature-content .tab-list-feature li:hover a i,
+.popular-feature-content .tab-list-feature li:hover a span,
+.introduce-hosting .info-introduce .list-detail li i,
+.static-custom .info-static .icon-info i,
+.list-custom-comment .item-content > h5,
+.popular-feature-content .tab-list-feature li.ui-state-active a span,
+.package-services-wrapper .package-item.featured .pricebox-header .single-up a,
+.package-services-wrapper .term-policy p a,
+.package-hosting-wrapper .package-professional .item-detail li i.fa-check,
+.package-hosting-wrapper .package-business .item-detail li i.fa-check,
+.footer .footer-bottom .copy-right > span a,
+.feature-tags-sidebar .list-tag li a:hover,
+.blog-posts-wrap .post-item .item-content-main .post-meta li:last-child > a,
+.recent-post-sidebar .post-recent-content h4 a:hover,
+.blog-category .list-category li a:hover,
+.blog-posts-wrap .post-item .item-content-main h3 a:hover,
+#mainnav ul.sub-menu > li:hover a,
+.tag-social .tag-single a,
+.contact-info > span i,
+.main-header-content .items .cart-item-info .product-name:hover,
+.footer .footer-top .hosting-domain .hosting-list li:hover a,
+.footer .footer-top .hosting-domain .post-recent li .post-content h3:hover a,
+#mainnav > ul > li.active > a,
+#mainnav ul li:hover > a{
+    color: #00adf1!important;
+}
+
+.header .icon-shop:before,
+.open-source .content-choose,
+.package-services-wrapper .package-item .pricebox-header .single-up a,
+.package-services-wrapper .package-item:hover .pricebox-header-content,
+.buil-website .built-website-content span,
+.info-offer-list .info-offer-item:hover a,
+.introduce-hosting .introduce-list-timeline li.ui-state-active a,
+.introduce-hosting .introduce-list-timeline li a:hover,
+.list-custom-comment.owl-theme .owl-dots .owl-dot.active span,
+.list-custom-comment.owl-theme .owl-dots .owl-dot:hover span,
+.package-services-wrapper .package-item.featured .pricebox-header-content,
+.package-hosting-wrapper .package-professional .header-content .single-up a,
+.package-hosting-wrapper .package-business .header-content .single-up a,
+.table-domain-price .list-domain-price li.title,
+.subscribe-email.style2 .subscribe-form button,
+.blog-posts-wrap .post-item .date-time,
+.blog-posts-wrap .paging li a.active,
+.blog-posts-wrap .paging li a:hover,
+.blog-single-wrap .single-content .title-post .date-time,
+.comment-single .list-comment .author-comment .author-detail > a,
+.form-comment-wrap .form-comment button,
+.contact-form .form-page-contact button,
+.main-header-content .mini-cart-action .btn-checkout:hover,
+.search-domain-content .form-search-domain button{
+    background: #00adf1!important;
+}
+
+.custom-reply .content-reply .name-custom i,
+.package-services-wrapper .package-item:hover,
+.introduce-hosting .introduce-list-timeline li a:hover,
+.introduce-hosting .introduce-list-timeline li.ui-state-active a,
+.introduce-hosting .introduce-list-timeline.ui-state-active li a,
+.popular-feature-content .tab-list-feature li.ui-state-active,
+.package-services-wrapper .package-item.featured,
+.blog-posts-wrap .paging li a.active,
+.blog-posts-wrap .paging li a:hover,
+.contact-info > span i,
+.main-header-content .mini-cart-action .btn-checkout:hover{
+    border-color: #00adf1!important;
+}
+.popular-feature-content .tab-list-feature li:hover{
+    border-right-color: #00adf1!important;
+}
+

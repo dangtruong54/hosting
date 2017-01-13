@@ -1,0 +1,360 @@
+/* Responsive Page */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    .info-offer .container{
+        width: 1230px;
+    }
+}
+@media (max-width: 1600px) {
+    .built-website-image{
+        left: 50%;
+        margin: 0;
+    }
+}
+@media (max-width: 1500px) {
+    .customer-support-footer{
+        display: none;
+    }
+}
+/* ========== Responsive ===========*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #mainnav > ul > li > a{
+        padding: 36px 7px;
+    }
+    .info-offer-list .info-offer-item p{
+        font-size: 14px;
+    }
+    .home-slider{
+        overflow: hidden;
+    }
+    .introduce-hosting .introduce-list-timeline li{
+        width: 220px;
+    }
+    .package-hosting-wrapper .choose-package{
+        width: 27%;
+    }
+    .package-hosting-wrapper .package-professional,
+    .package-hosting-wrapper .package-business{
+        width: 23%;
+    }
+}
+
+@media (max-width: 991px) {
+    /*---------- Header ----------*/
+    .btn-menu {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        margin-top: 22px;
+        margin-right: 5px;
+    }
+
+    header.header .header-brand {
+        float: left;
+        width: 128px;
+        height: 60px;
+        line-height: 60px;
+        margin-left: 5px;
+    }
+    header.header .header-brand a{
+        padding: 0;
+    }
+    .header .icon-search {
+        right: 100px;
+        top: 18px;
+    }
+    .header.active-search-form .icon-search{
+        right: 20px;
+    }
+    .header .icon-shop {
+        right: 65px;
+        top: 17px;
+    }
+
+    /*---------- Footer ----------*/
+    .logo-footer,
+    .work-house {
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-top .hosting-domain > h3{
+        margin-top: 30px;
+    }
+
+    /* --------- Home Page -------*/
+    .main-header-content .cart-dd{
+        top: 42px;
+    }
+    .home-slider {
+        overflow: hidden;
+    }
+    .open-source .content-choose .heading.style2 h3::before,
+    .custom-reply .image-custom-reply,
+    .image-search-domain,
+    .built-website-image{
+        display: none;
+    }
+    .pricebox-content{
+        text-align: center;
+    }
+    .custom-reply{
+        padding: 70px 0;
+    }
+    .subscribe-email .subscribe-form{
+        width: 100%;
+    }
+    .content-slider .list-feature{
+        padding: 0;
+    }
+
+    .list-custom-comment .image-avatar{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .blog-posts-wrap{
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .blog-posts-wrap .item-content-main {
+        margin: 20px 0 0;
+    }
+    .contact-info {
+        margin-top: 50px;
+    }
+    .contact-info .info-title{
+        padding-bottom: 0;
+    }
+    .info-map{
+        margin-top: 30px;
+    }
+    .subscribe-email.style2 .subscribe-form{
+        width: 100%;
+    }
+
+    .table-domain-price .list-domain-price li.title div{
+        color: white;
+        font-weight: 400;
+        line-height: 60px;    }
+    .table-domain-price .domain-extension{
+        float: left;
+        width: 10%;
+        padding-left: 10px;
+    }
+    .table-domain-price .one-year,
+    .table-domain-price .two-years,
+    .table-domain-price .renew,
+    .table-domain-price .transfer,
+    .table-domain-price .who,
+    .table-domain-price .cpanel{
+        width: 14.833%;
+        border-right: 1px solid white;
+        text-align: center;
+    }
+    .table-domain-price .cpanel{
+        border-right: 0;
+    }
+    .table-domain-price .list-domain-price li.title .domain-extension{
+        line-height: 26px;
+    }
+
+
+    .package-hosting-wrapper .choose-package{
+        margin: 30px 0;
+        width: 100%;
+    }
+    .package-hosting-wrapper .package-business{
+        margin: 30px 0;
+        width: 100%;
+    }
+    .package-hosting-wrapper .package-professional{
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    .footer .footer-top{
+        padding: 20px 0 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .subscribe-email{
+        padding: 90px 0;
+    }
+    .introduce-hosting .introduce-list-timeline li{
+        width: 165px;
+    }
+    .list-social-footer {
+        text-align: left;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    /*----------- Home Page ------------*/
+
+    .list-social-footer {
+        margin-top: 10px;
+        text-align: left;
+    }
+    .subscribe-email span{
+        padding-bottom: 15px;
+    }
+    .subscribe-email .subscribe-form button{
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .content-slider .money, .content-slider .free-domain{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content-slider .getting-started a{
+        padding: 10px;
+    }
+
+    .introduce-hosting .introduce-list-timeline li::after{
+        display: none;
+    }
+    .introduce-hosting .introduce-list-timeline li{
+        width: 22%;
+    }
+
+    .list-custom-comment .owl-dots{
+        display: none
+    }
+    .heading.style1 h3{
+        font-size: 32px;
+    }
+    .icon-info {
+        margin: 10px 0;
+    }
+    .feature-tab-item{
+        padding-left: 0;
+    }
+
+    .content-slider .money, .content-slider .free-domain
+    {
+        font-size: 35px;
+        margin: 10px 0px;
+    }
+    .buil-website .built-website-content{
+        padding: 30px 0px 0px;
+    }
+
+    .subscribe-email h3{
+        font-size: 25px;
+    }
+    .heading-content{
+        height: 140px;
+    }
+    .heading-content .heading-title h2{
+        font-size: 25px;
+    }
+    .services-item{
+        padding-bottom: 40px;
+    }
+    .heading.style1 h5{
+        padding-bottom: 20px;
+    }
+    .heading.style1{
+        padding: 50px 0px 30px;
+    }
+    .subscribe-email.style2{
+        padding: 70px 0px;
+    }
+    .subscribe-email.style2 h3{
+        font-size: 28px;
+    }
+    .table-domain-price .list-domain-price li.title div{
+
+        line-height: 54px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .table-domain-price .list-domain-price li.title .domain-extension{
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    .table-domain-price .domain-extension{
+        text-align: center;
+    }
+    .table-domain-price .domain-extension,
+    .table-domain-price .one-year,
+    .table-domain-price .two-years,
+    .table-domain-price .renew,
+    .table-domain-price .transfer,
+    .table-domain-price .who,
+    .table-domain-price .cpanel{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-slider{
+        display: none!important;
+    }
+}
+@media (max-width: 479px) {
+    .main-header-content .cart-dd{
+        right: -70px;
+    }
+    .open-source .open-source-main li{
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    .feature-tab-item .list-suggest ul,
+    .feature-tab-item .list-suggest .image-hosting {
+        width: 100%;
+    }
+    .heading.style1 h3::before,
+    .heading.style1 h3::after,
+    .open-source .content-choose .heading.style2 h3::before,
+    .open-source .content-choose .heading.style2 h3::after,
+    .search-domain-content h3::before,
+    .search-domain-content h3::after{
+        display: none;
+    }
+
+    .custom-reply .content-reply{
+        padding-left: 0;
+    }
+    .search-domain-content .form-search-domain button{
+        position: relative;
+        right: 0;
+    }
+    .search-domain-content .extend-domain .list-extend,
+    .search-domain-content .extend-domain .notice-domain{
+        float: none;
+        margin: 10px 0;
+    }
+    .heading.style1 h3{
+        font-size: 25px;
+    }
+    .introduce-hosting .introduce-list-timeline li a{
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+    .feature-tab-item{
+        padding-left: 0;
+    }
+    .icon-info {
+        padding-top: 10px;
+    }
+    .custom-about-us{
+        padding: 50px 15px;
+    }
+    .main-header-content .items .cart-item-image{
+        margin-right: 20px;
+    }
+}
